@@ -4,3 +4,6 @@
 [submodule "vim-pathogen"]
 	path = vim-pathogen
 	url = ./bundle/vim-pathogen/
+[submodule "Color-Sampler-Pack"]
+	path = Color-Sampler-Pack
+	url = ./bundle/Color-Sampler-Pack/
