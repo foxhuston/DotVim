@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/fox/dev/haskell/hoc-read-only/hoc/HOC'
+let g:netrw_dirhist_2='/Users/fox/dev/haskell/pancake/.git'
+let g:netrw_dirhist_3='/Users/fox/.vim/colors'
+let g:netrw_dirhist_4='/Users/fox/dev/haskell/urls/jargon-wl'
+let g:netrw_dirhist_5='/Users/fox/dev/thirdParty/lambdacube-read/hStunts'
