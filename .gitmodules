@@ -1,0 +1,6 @@
+[submodule "nerdtree"]
+	path = nerdtree
+	url = ./bundle/nerdtree/
+[submodule "vim-pathogen"]
+	path = vim-pathogen
+	url = ./bundle/vim-pathogen/
