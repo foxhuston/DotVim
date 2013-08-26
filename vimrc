@@ -3,6 +3,10 @@ call pathogen#infect()
 
 syntax on
 
+set number
+
+set backspace=indent,eol,start
+
 "Formatting stuff
 
 set tabstop=4
