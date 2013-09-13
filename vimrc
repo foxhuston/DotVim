@@ -9,8 +9,8 @@ set backspace=indent,eol,start
 
 "Formatting stuff
 
-set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent
 
