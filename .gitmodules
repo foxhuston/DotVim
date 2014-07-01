@@ -19,3 +19,6 @@
 [submodule "bundles/emmet"]
 	path = bundles/emmet
 	url = https://github.com/vim-scripts/Emmet.vim.git
+[submodule ".\\bundle\\typescript-vim"]
+	path = .\\bundle\\typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
