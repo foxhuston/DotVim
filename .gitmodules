@@ -16,9 +16,9 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundles/emmet"]
+[submodule "bundle/emmet"]
 	path = bundle/emmet
 	url = https://github.com/vim-scripts/Emmet.vim.git
-[submodule ".\\bundle\\typescript-vim"]
+[submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
