@@ -10,7 +10,7 @@ endif
 "Vundle Main
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 Plugin 'scrooloose/nerdtree'
@@ -19,11 +19,13 @@ Plugin 'bling/vim-airline'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'dag/vim2hs'
 " Plugin 'fountain.vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'sickill/vim-monokai'
 Plugin 'eagletmt/neco-ghc'
 Plugin 'eagletmt/ghcmod-vim'
 Plugin 'godlygeek/tabular'
 Plugin 'shougo/vimproc.vim'
+Plugin 'aperezdc/vim-template'
 
 call vundle#end()
 filetype plugin indent on
@@ -33,6 +35,7 @@ syntax on
 set number
 set backspace=indent,eol,start
 let g:haskell_conceal_wide = 1
+let g:templates_directory = '~/.vim/templates/'
 
 "Formatting stuff
 
@@ -44,6 +47,6 @@ set autoindent
 
 "Stuff for mvim.
 if has("gui_running")
-    set gfn=Courier\ New:h14
+    set gfn=Monaco:h14
     colorscheme Monokai
 endif
