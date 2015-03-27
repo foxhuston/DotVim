@@ -21,11 +21,9 @@ Plugin 'dag/vim2hs'
 " Plugin 'fountain.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'sickill/vim-monokai'
-Plugin 'eagletmt/neco-ghc'
-Plugin 'eagletmt/ghcmod-vim'
 Plugin 'godlygeek/tabular'
-Plugin 'shougo/vimproc.vim'
 Plugin 'aperezdc/vim-template'
+Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()
 filetype plugin indent on
@@ -36,6 +34,7 @@ set number
 set backspace=indent,eol,start
 let g:haskell_conceal_wide = 1
 let g:templates_directory = '~/.vim/templates/'
+let g:airline_powerline_fonts = 1
 
 "Formatting stuff
 
@@ -44,9 +43,11 @@ set softtabstop=4
 set expandtab
 set autoindent
 
+hi! link Conceal Operator
+
 
 "Stuff for mvim.
 if has("gui_running")
-    set gfn=Monaco:h14
+    set gfn=Inconsolata\ for\ Powerline:h16
     colorscheme Monokai
 endif
