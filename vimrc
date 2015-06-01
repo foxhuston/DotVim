@@ -24,6 +24,7 @@ Plugin 'sickill/vim-monokai'
 Plugin 'godlygeek/tabular'
 Plugin 'aperezdc/vim-template'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'wting/lhaskell.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -43,11 +44,15 @@ set softtabstop=4
 set expandtab
 set autoindent
 
+"Keep status bar
+set laststatus=2
+
 hi! link Conceal Operator
 
 
 "Stuff for mvim.
 if has("gui_running")
-    set gfn=Inconsolata\ for\ Powerline:h16
+    " set gfn=Inconsolata\ for\ Powerline:h16
+    set gfn=Monaco\ for\ Powerline:h13
     colorscheme Monokai
 endif

@@ -1,6 +1,6 @@
 /* Created by Geoff Huston
  * on %DATE%
- * %FILE% (c) %YEAR% */
+ * %FILE% */
 
 (function (undefined) {
     'use strict';
