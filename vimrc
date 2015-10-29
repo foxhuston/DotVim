@@ -30,16 +30,13 @@ Plugin 'sickill/vim-monokai'
 Plugin 'godlygeek/tabular'
 Plugin 'aperezdc/vim-template'
 Plugin 'kchmck/vim-coffee-script'
-<<<<<<< HEAD
 " Plugin 'eagletmt/neco-ghc'
 " Plugin 'eagletmt/ghcmod-vim'
 Plugin 'othree/yajs.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Valloric/YouCompleteMe'
-=======
 Plugin 'wting/lhaskell.vim'
->>>>>>> origin/master
 
 call vundle#end()
 filetype plugin indent on
@@ -89,11 +86,6 @@ hi! link Conceal Operator
 
 "Stuff for mvim.
 if has("gui_running")
-<<<<<<< HEAD
     set gfn=Monaco\ for\ Powerline:h16
-=======
-    " set gfn=Inconsolata\ for\ Powerline:h16
-    set gfn=Monaco\ for\ Powerline:h13
->>>>>>> origin/master
     colorscheme Monokai
 endif
