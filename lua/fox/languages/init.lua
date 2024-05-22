@@ -1,14 +1,18 @@
 return {
+  "dpwright/vim-tup",
+  "mattn/emmet-vim",
+  -- {
+  --   "mrcjkb/rustaceanvim",
+  --   config = function()
+  --     vim.keymap.set("n", "<Leader>a", vim.cmd.RustLsp('codeAction'), { buffer = bufnr, silent = true })
+  --   end
+  -- },
+  "nvim-treesitter/nvim-treesitter",
+  "folke/neodev.nvim",
   {
-    "dpwright/vim-tup",
-    "mattn/emmet-vim",
-    "mrcjkb/rustaceanvim",
-    "nvim-treesitter/nvim-treesitter",
-    "folke/neodev.nvim",
     "neovim/nvim-lspconfig",
     config = function()
       local lsp = require("lspconfig")
-      -- lsp.rust_analyzer.setup{}
       lsp.clangd.setup {}
       lsp.verible.setup {
         cmd = {'verible-verilog-ls', '--rules_config_search'},

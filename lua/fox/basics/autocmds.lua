@@ -8,6 +8,13 @@ function M.setup()
     end
   });
 
+  vim.api.nvim_create_autocmd({"BufNewFile", "BufRead"}, {
+    pattern = {"*.m"},
+    callback = function()
+      vim.o.filetype="forth"
+    end
+  })
+
   vim.api.nvim_create_autocmd({"BufLeave", "BufWinLeave"}, {
     pattern = {"*.md", "*.txt"},
     callback = function()

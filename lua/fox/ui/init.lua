@@ -2,6 +2,13 @@ return {
   { import = "fox.ui.completions" },
   "rcarriga/nvim-notify",
   {
+    'echasnovski/mini.align',
+    version = '*',
+    config = function()
+      require('mini.align').setup()
+    end
+  },
+  {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
     config = function()
       local builtin = require('telescope.builtin')

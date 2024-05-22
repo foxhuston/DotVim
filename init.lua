@@ -19,6 +19,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   { import = "fox.colors" },
   { import = "fox.editor" },
-  { import = "fox.languages" },
   { import = "fox.ui" },
+  { import = "fox.languages" },
 })
