@@ -46,18 +46,18 @@ return {
     opts = {},
     config = function() require('dressing').setup() end
   },
-  {
-    'akinsho/bufferline.nvim',
-    version = "*",
-    dependencies = 'nvim-tree/nvim-web-devicons',
-    config = function()
-      require('bufferline').setup {
-        options = {
-          separator_style = "slant"
-        }
-      }
-    end,
-  },
+  -- {
+  --   'akinsho/bufferline.nvim',
+  --   version = "*",
+  --   dependencies = 'nvim-tree/nvim-web-devicons',
+  --   config = function()
+  --     require('bufferline').setup {
+  --       options = {
+  --         separator_style = "slant"
+  --       }
+  --     }
+  --   end,
+  -- },
   -- Automatically resizes focused window!
   {
     "anuvyklack/windows.nvim",
